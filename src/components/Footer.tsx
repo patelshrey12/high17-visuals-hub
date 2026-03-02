@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="border-t border-border bg-background">
       <div className="container mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <Link to="/" className="font-display text-xl font-bold tracking-wider text-gradient-gold">
+          <Link to="/" className="font-display text-xl font-bold tracking-wider text-white">
             HIGH17
           </Link>
 
