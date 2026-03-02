@@ -6,6 +6,8 @@ import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio4 from "@/assets/portfolio-4.jpg";
 import portfolio5 from "@/assets/portfolio-5.jpg";
 import portfolio6 from "@/assets/portfolio-6.jpg";
+import portfolio7 from "@/assets/portfolio-7.jpg";
+import portfolio8 from "@/assets/portfolio-8.jpg";
 
 type Category = "All" | "Photo" | "Video";
 
@@ -16,6 +18,8 @@ const works = [
   { src: portfolio4, title: "Coastline", category: "Photo" as const, aspect: "landscape" },
   { src: portfolio5, title: "Forever Yours", category: "Video" as const, aspect: "landscape" },
   { src: portfolio6, title: "Product Showcase", category: "Video" as const, aspect: "square" },
+  { src: portfolio7, title: "Maternity Walk", category: "Photo" as const, aspect: "landscape" },
+  { src: portfolio8, title: "Expecting", category: "Photo" as const, aspect: "portrait" },
 ];
 
 const categories: Category[] = ["All", "Photo", "Video"];
